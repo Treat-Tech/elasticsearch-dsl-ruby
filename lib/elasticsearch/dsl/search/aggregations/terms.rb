@@ -52,6 +52,7 @@ module Elasticsearch
           option_method :script
           option_method :include
           option_method :exclude
+          option_method :missing
         end
 
       end
