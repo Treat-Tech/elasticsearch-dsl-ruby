@@ -46,6 +46,8 @@ module Elasticsearch
         #
         class ReverseNested
           include BaseAggregationComponent
+
+          option_method :path
         end
 
       end
